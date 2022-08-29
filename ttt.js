@@ -237,7 +237,7 @@ function myfunc() {
     (g9 == "X" || g9 == "O")
   ) {
     document.getElementById("print").innerHTML = "";
-    document.getElementById("printres").innerHTML = " Match is a Draw";
+    document.getElementById("printres").innerHTML = "Draw";
   } else {
     if (flag == 1) {
       document.getElementById("print").innerHTML = "Player 1 Turn";
