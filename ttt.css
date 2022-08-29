@@ -10,32 +10,7 @@ h1 {
   font-size: 4rem;
   font-family: "Bungee Shade", cursive;
 }
-@media (max-height: 650px) or (max-width: 630px) {
-  h1 {
-    padding-top: 2rem;
-    font-size: 3rem;
-  }
-  .grid {
-    padding: 1rem;
-  }
-  #g1,
-  #g2,
-  #g3,
-  #g4,
-  #g5,
-  #g6,
-  #g7,
-  #g8,
-  #g9 {
-    width: 7rem;
-    height: 5rem;
-  }
-  #but {
-    width: 6rem;
-    height: 2rem;
-    font-size: 1rem;
-  }
-}
+
 .grid {
   padding: 2rem;
   font-family: "Righteous", cursive;
@@ -80,4 +55,31 @@ h1 {
   font-size: 30px;
   font-family: "Press Start 2P", cursive;
   color: #e7f6f2;
+}
+@media (max-height: 650px) , (max-width: 630px) {
+  h1 {
+    padding-top: 2rem;
+    font-size: 3rem;
+  }
+  .grid {
+    padding: 1rem;
+  }
+  #g1,
+  #g2,
+  #g3,
+  #g4,
+  #g5,
+  #g6,
+  #g7,
+  #g8,
+  #g9 {
+    width: 3rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  #but {
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
 }
